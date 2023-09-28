@@ -1,0 +1,43 @@
+@media screen and (max-width: 900px) {
+    .foto-principal div {
+        display: none;
+
+    }
+} 
+
+@media screen and (max-width: 900px) {
+    .productoscontenedor{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+/* Estilos para pantallas medianas (ajusta los valores según sea necesario) */
+@media screen and (max-width: 900px) {
+    .productos .productoscontenedor div img {
+        width: 100%; /* Haz que las imágenes ocupen el 100% del ancho del contenedor */
+        height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+        max-width: 300px; /* Establece un ancho máximo para las imágenes */
+    }
+}
+
+@media screen and (max-width: 900px){
+    .grid-galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px;
+    }
+    .grid-item{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .video iframe{
+        justify-content: center;
+        width: 100%;
+        height: 30vh;
+    }
+
+}
