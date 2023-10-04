@@ -13,12 +13,11 @@
 
 }
 
-/* Estilos para pantallas medianas (ajusta los valores según sea necesario) */
 @media screen and (max-width: 900px) {
     .productos .productoscontenedor div img {
-        width: 100%; /* Haz que las imágenes ocupen el 100% del ancho del contenedor */
-        height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
-        max-width: 300px; /* Establece un ancho máximo para las imágenes */
+        width: 100%;
+        height: auto;
+        max-width: 300px; 
     }
 }
 

@@ -49,7 +49,8 @@ form button:hover {
     .productos .productoscontenedor div {
       margin: 10px;
       text-align: center;
-      color: grey; }
+      color: grey;
+      transition: 1s; }
       .productos .productoscontenedor div a img {
         width: 60vh;
         height: 60vh; }
