@@ -16,8 +16,7 @@
 @media screen and (max-width: 900px) {
     .productos .productoscontenedor div img {
         width: 100%;
-        height: auto;
-        max-width: 300px; 
+        height: auto; 
     }
 }
 
@@ -29,6 +28,9 @@
     .grid-item{
         grid-row: span 1;
         grid-column: span 1;
+    }
+    .img6{
+        grid-column: span 2;
     }
 }
 

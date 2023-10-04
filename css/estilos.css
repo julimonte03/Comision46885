@@ -54,7 +54,7 @@ form button:hover {
           color: white; }
 
 .video iframe {
-  width: 80%;
+  width: 100%;
   height: 500px; }
 
 .grid-galeria {
@@ -98,12 +98,21 @@ form button:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
-  .productos-pag .productos-pag-contenedor div {
-    margin: 20px; }
-    .productos-pag .productos-pag-contenedor div a {
-      border: 1px solid grey;
-      background-color: whitesmoke;
-      color: black; }
+
+.card {
+  margin: 20px;
+  transition: 1s; }
+  .card:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.46);
+    box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.46); }
+  .card .btn {
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    color: black; }
+    .card .btn:hover {
+      border: none; }
 
 footer {
   display: flex;
@@ -131,8 +140,7 @@ footer {
 @media screen and (max-width: 900px) {
   .productos .productoscontenedor div img {
     width: 100%;
-    height: auto;
-    max-width: 300px; } }
+    height: auto; } }
 
 @media screen and (max-width: 900px) {
   .grid-galeria {
@@ -140,7 +148,9 @@ footer {
     grid-auto-rows: 220px; }
   .grid-item {
     grid-row: span 1;
-    grid-column: span 1; } }
+    grid-column: span 1; }
+  .img6 {
+    grid-column: span 2; } }
 
 @media screen and (max-width: 900px) {
   .video iframe {
