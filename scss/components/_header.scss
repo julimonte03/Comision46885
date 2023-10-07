@@ -5,14 +5,14 @@ header img{
     color: black !important;
 }
 header nav{
-    background-color: white;
-    border-bottom: 1px solid grey;
+    background-color: $color-principal;
+    border-bottom: 1px solid $color-secundario;
 }
 form button{
-    border: 1px solid grey !important;
+    border: 1px solid $color-secundario !important;
     color: black !important;
 }
 form button:hover{
-    background-color: grey !important;
-    color: white !important;
+    background-color: $color-secundario !important;
+    color: $color-principal !important;
 } 
