@@ -11,8 +11,8 @@
             color: grey;
             a{
                 img{
-                    width: 60vh;
-                    height: 60vh;
+                    width: 100%;
+                    height: auto;
                 }
             }
             h3{
@@ -77,7 +77,6 @@
     div{
         display: flex;
         justify-content: center;
-        height: 370px;
         margin: 10px;
         img{
             width: 80%;

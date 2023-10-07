@@ -42,3 +42,32 @@
     }
 
 }
+
+@media screen and (max-width: 800px) {
+    footer {
+        height: auto;
+        padding: 10px;
+        flex-direction: row; /* Cambia la dirección de flex a fila */
+        justify-content: center; /* Alinea los elementos al principio */
+        align-items: center; /* Alinea verticalmente al centro */
+        text-align: left;
+    }
+
+    footer div {
+        display: flex; /* Hace que los elementos dentro del div se comporten como elementos de bloque */
+        align-items: center; /* Alinea verticalmente al centro */
+    }
+
+    footer div a {
+        margin: 0 10px; /* Agrega un espacio horizontal entre enlaces */
+    }
+
+    footer div a img {
+      max-width: 50px; /* Establece un ancho máximo para las imágenes */
+      height: auto; /* Mantiene la proporción de aspecto original */
+    }
+
+    footer div h2 {
+    display: none;
+    }
+}
