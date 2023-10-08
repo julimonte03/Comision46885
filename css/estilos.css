@@ -34,13 +34,15 @@ form button:hover {
     flex-wrap: wrap; }
     .productos .productoscontenedor div {
       border: none;
-      margin: 10px;
+      margin: 30px;
       text-align: center;
       color: grey; }
       .productos .productoscontenedor div a img {
         width: 100%;
         height: auto; }
-      .productos .productoscontenedor div h3 {
+      .productos .productoscontenedor div h2 {
+        font-weight: 600;
+        font-size: 25px;
         margin: 10px; }
       .productos .productoscontenedor div .boton {
         text-decoration: none;
@@ -122,9 +124,10 @@ footer {
   background-color: blacK;
   height: 20vh;
   color: white; }
-  footer div h2 {
+  footer div h1 {
+    margin: 10px;
     font-size: 20px;
-    font-weight: 500; }
+    font-weight: 300; }
   footer div a {
     margin: 50px; }
 
@@ -182,5 +185,5 @@ footer {
     /* Establece un ancho máximo para las imágenes */
     height: auto;
     /* Mantiene la proporción de aspecto original */ }
-  footer div h2 {
+  footer div h1 {
     display: none; } }

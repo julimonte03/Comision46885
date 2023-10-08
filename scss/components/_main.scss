@@ -6,7 +6,7 @@
         flex-wrap: wrap;
         div{
             border: none;
-            margin: 10px;
+            margin: 30px;
             text-align: center;
             color: $color-secundario;
             a{
@@ -15,7 +15,9 @@
                     height: auto;
                 }
             }
-            h3{
+            h2{
+                font-weight: 600;
+                font-size: 25px;
                 margin: 10px;
             }
             .boton{
