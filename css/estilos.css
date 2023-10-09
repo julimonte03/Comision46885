@@ -26,6 +26,9 @@ form button:hover {
   background-color: grey !important;
   color: white !important; }
 
+.hero .carousel-inner {
+  height: 65vh; }
+
 .productos {
   margin: 20px; }
   .productos .productoscontenedor {
@@ -56,9 +59,12 @@ form button:hover {
           border: none;
           color: white; }
 
-.video iframe {
-  width: 100%;
-  height: 500px; }
+.video {
+  display: flex;
+  justify-content: center; }
+  .video iframe {
+    width: 75%;
+    height: 60vh; }
 
 .grid-galeria {
   width: 100%;
@@ -121,7 +127,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: blacK;
+  background-color: #747474;
   height: 20vh;
   color: white; }
   footer div h1 {
@@ -157,6 +163,7 @@ footer {
 
 @media screen and (max-width: 900px) {
   .video iframe {
+    margin-top: 30px;
     justify-content: center;
     width: 100%;
     height: 30vh; } }
