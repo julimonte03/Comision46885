@@ -30,8 +30,9 @@ form button:hover {
   margin: 20px; }
   .productos .productoscontenedor {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; }
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center; }
     .productos .productoscontenedor div {
       border: none;
       margin: 30px;
@@ -70,6 +71,7 @@ form button:hover {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 250px;
   gap: 15px;
+  margin-top: 50px;
   margin-bottom: 10px; }
   .grid-galeria .grid-item img {
     width: 100%;
@@ -140,8 +142,13 @@ footer {
 
 @media screen and (max-width: 900px) {
   .productoscontenedor {
-    flex-direction: column;
-    justify-content: center; } }
+    flex-direction: column; } }
+
+@media screen and (max-width: 900px) {
+  .productos .productoscontenedor div {
+    margin: 55px;
+    width: 50vh;
+    height: 50vh; } }
 
 @media screen and (max-width: 900px) {
   .productos .productoscontenedor div a img {
@@ -163,9 +170,13 @@ footer {
     margin-top: 40px;
     justify-content: center;
     width: 100%;
+    height: 50vh; } }
+
+@media screen and (max-width: 400px) {
+  .video iframe {
     height: 30vh; } }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   footer {
     height: auto;
     padding: 10px;
