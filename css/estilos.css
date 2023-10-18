@@ -121,6 +121,16 @@ form button:hover {
     .card .btn:hover {
       border: none; }
 
+.abajo div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: 100%;
+  width: 100%; }
+  .abajo div img {
+    width: 75%;
+    height: 100%; }
+
 footer {
   display: flex;
   justify-content: center;
@@ -176,6 +186,10 @@ footer {
   .video iframe {
     height: 30vh; } }
 
+@media screen and (max-width: 900px) {
+  footer {
+    margin-top: 50px; } }
+
 @media screen and (max-width: 500px) {
   footer {
     height: auto;
@@ -201,4 +215,8 @@ footer {
     height: auto;
     /* Mantiene la proporción de aspecto original */ }
   footer div h1 {
+    display: none; } }
+
+@media screen and (max-width: 900px) {
+  .abajo div {
     display: none; } }

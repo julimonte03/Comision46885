@@ -55,6 +55,12 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    footer {
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     footer {
         height: auto;
@@ -81,5 +87,10 @@
 
     footer div h1 {
     display: none;
+    }
+}
+@media screen and (max-width:900px) {
+    .abajo div{
+        display: none;
     }
 }
